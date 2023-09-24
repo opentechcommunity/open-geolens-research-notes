@@ -113,8 +113,8 @@ So, the formula will be D<sup>2</sup>/d x (value/standard\_value)
 |                    |                       |                              |                        |                      |                        |                                    |
 | ------------------ | --------------------- | ---------------------------- | ---------------------- | -------------------- | ---------------------- | ---------------------------------- |
 | Amenity 1          | Amenity 2             | Life Expectancy(Val. - Avg.) | Education(Val. - Avg.) | Economy(Val. - Avg.) | Happiness(Val. - Avg.) | Positive/Negative Indicator(sum/4) |
-| Population density | Schools               | Number                       | Number                 | Number               | Number                 | Sum(Numbers)                       |
-| Population density | Public transportation | Number                       | Number                 | Number               | Number                 | Sum(Numbers)                       |
+| Population density | Schools               | Number                       | Number                 | Number               | Number                 | Sum(Numbers)/4                       |
+| Population density | Public transportation | Number                       | Number                 | Number               | Number                 | Sum(Numbers)/4                     |
 | …                  | …                     | …                            | …                      | …                    | …                      | …                                  |
 
 
