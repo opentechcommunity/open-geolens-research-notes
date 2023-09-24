@@ -116,6 +116,7 @@ So, the formula will be D<sup>2</sup>/d x (value/standard\_value)
 | Population density | Schools               | Number                       | Number                 | Number               | Number                 | Sum(Numbers)                       |
 | Population density | Public transportation | Number                       | Number                 | Number               | Number                 | Sum(Numbers)                       |
 | …                  | …                     | …                            | …                      | …                    | …                      | …                                  |
+Based on how large the numbers are, a range should be defined for positive, negative and neutral
 
 Here are some additional references on this topic:
 
