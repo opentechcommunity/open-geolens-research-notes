@@ -108,7 +108,7 @@ So, the formula will be D<sup>2</sup>/d x (value/standard\_value)
 
 ### **Quantified Interaction of Amenities**
 
-**Note**: Choosing the average value as standard value. The next section discusses more about the standards: average or country standard or scientifically proven standard.
+**Note**: Choosing the average value as standard value. The next document discusses more about the standards: average or country standard or scientifically proven standard.
 
 |                    |                       |                              |                        |                      |                        |                                    |
 | ------------------ | --------------------- | ---------------------------- | ---------------------- | -------------------- | ---------------------- | ---------------------------------- |
