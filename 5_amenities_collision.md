@@ -125,6 +125,7 @@ To encapsulate the collision and its resulting intensity, we need a comprehensiv
 This refined approach provides a holistic representation of amenities collision and its intensity, facilitating more insightful comparisons.
 
 **For working on several theme**
+
 If we plan to use average (Avg) as an standard:
 
 |                    |                       |                              |                        |                      |                        |                                    |
