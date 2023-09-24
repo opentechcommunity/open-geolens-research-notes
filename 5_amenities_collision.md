@@ -96,6 +96,10 @@ Another approach is to use data analysis to look at the patterns of development 
 \- Compare these metrics to other areas to see how the area of interest compares.
 
 
+### **Quantified Interaction of Amenities**
+
+**Note**: Choosing the average value as standard value. The next document discusses more about the standards: average or country standard or scientifically proven standard.
+
 **Finding Proper Index to Represent Collision and Resulting Intensity**
 
 To encapsulate the collision and its resulting intensity, we need a comprehensive index. This index reflects both the impact of an amenity's interaction with others and the density of the area. The process involves several steps:
@@ -121,9 +125,6 @@ To encapsulate the collision and its resulting intensity, we need a comprehensiv
 This refined approach provides a holistic representation of amenities collision and its intensity, facilitating more insightful comparisons.
 
 
-### **Quantified Interaction of Amenities**
-
-**Note**: Choosing the average value as standard value. The next document discusses more about the standards: average or country standard or scientifically proven standard.
 
 |                    |                       |                              |                        |                      |                        |                                    |
 | ------------------ | --------------------- | ---------------------------- | ---------------------- | -------------------- | ---------------------- | ---------------------------------- |
