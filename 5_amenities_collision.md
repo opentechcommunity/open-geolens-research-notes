@@ -157,7 +157,7 @@ This is a complex concept, and there is no single, agreed-upon definition. Howev
 
 It is important to note that the threshold of amenities collision is not a fixed point. It can change over time as the community changes. For example, a community may be able to tolerate a higher level of amenities collision as its population grows and its economy strengthens.
 
-**5. Contextual Considerations**
+### **5. Contextual Considerations**
 
 It's important to note that the impact of amenities collision can be highly context-specific. What is considered a positive or negative effect in one area may not apply to another, depending on the local population's needs, preferences, and the existing infrastructure and services.
 
