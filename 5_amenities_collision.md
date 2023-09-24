@@ -101,7 +101,7 @@ Another approach is to use data analysis to look at the patterns of development 
 
 \- The road network may result in varying proximity even for the same density. For higher the distance lower is the proximity hence inversely proportional to distance (1/d, where d stands for distance)
 
-\- The variability of amenities is a multiplication factor of the effect. However, supportive amenities is a good indicator and others are not. Average sum of count of supportive amenities deducted by average sum of count of non supportive amenities. (Sum(f1/n1+f2/n2+...)-Sum(fo1/no1+fo2/no2+...)) This value can be either positive or negative. This value can be a relatively larger number, hence using the ratio of the value to standard value(described below section) will make the calculation better. (value/standard\_value)
+\- The variability of amenities is a multiplication factor of the effect. However, supportive amenities is a good indicator and others are not. Average sum of count of supportive amenities deducted by average sum of count of non supportive amenities. [(Sum(i1xf1+i2xf2+...)/n-Sum(ixfo1+ixfo2+...)/no) where i is the impact factor, f is the count of a factor and n is the total count of the factor] This value can be either positive or negative. This value can be a relatively larger number, hence using the ratio of the value to standard value(described below section) will make the calculation better. (value/standard\_value)
 
 So, the formula will be D<sup>2</sup>/d x (value/standard\_value)
 
