@@ -118,7 +118,7 @@ So, the formula will be D<sup>2</sup>/d x (value/standard\_value)
 | …                  | …                     | …                            | …                      | …                    | …                      | …                                  |
 
 
-Based on how large the numbers are, a range should be defined for positive, negative and neutral
+Based on how large the numbers are, a range should be defined for positive, negative and neutral or on a scale ranging from 0 to n for both positive and negative number. Any of these approach are to be chosen based on the targeted achievement
 
 Here are some additional references on this topic:
 
