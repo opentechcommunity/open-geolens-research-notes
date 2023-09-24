@@ -95,15 +95,30 @@ Another approach is to use data analysis to look at the patterns of development 
 
 \- Compare these metrics to other areas to see how the area of interest compares.
 
-**Finding a single index value for comparison**
 
-\- Density amplifies the effect so there is a squared multiplication effect. (D<sup>2</sup>, where D stands for density )
+**Finding Proper Index to Represent Collision and Resulting Intensity**
 
-\- The road network may result in varying proximity even for the same density. For higher the distance lower is the proximity hence inversely proportional to distance (1/d, where d stands for distance)
+To encapsulate the collision and its resulting intensity, we need a comprehensive index. This index reflects both the impact of an amenity's interaction with others and the density of the area. The process involves several steps:
 
-\- The variability of amenities is a multiplication factor of the effect. However, supportive amenities is a good indicator and others are not. Average sum of count of supportive amenities deducted by average sum of count of non supportive amenities. [(Sum(i1xf1/n1+i2xf2/n2+...)-Sum(i5xfo5/n05+i6xfo6/n06+...)/no) where i is the impact factor of another amenity interacting with the amenity which may vary for various geography or political boundary, f is the count of another amenity interacting with the amenity and n is count of the interacting amenity] This value can be either positive or negative. This value can be a relatively larger number, hence using the ratio of the value to standard value(described below section) will make the calculation better. (value/standard\_value)
+1.  Create a table of indicators with the first column representing the core amenity with which other amenities interact. The second column lists the interacting amenities. The third column indicates the effect, either positive (+1) or negative (-1), of the interacting amenity. The fourth column contains the effect scale, ranging from 0 to 100, signifying the magnitude of the interaction's impact.
+    
+2.  Calculate the average distance, used as a proximity indicator, within the selected region using the formula: "avg. distance = square root of (area of selected region / number of items)."
+    
+3.  To determine the interaction value of other amenities with the chosen amenity, employ the formula: "Interaction Value of Other Amenities = Sum(E * S * AVDs / AVDi) / n;"
+    
+    -   E represents the effect of an amenity over the chosen amenity.
+    -   S signifies the scale of the interaction, ranging from 0 to 100.
+    -   AVDs represents the average distance (proximity) of the selected item.
+    -   AVDi represents the average distance (proximity) of the interacting amenity.
+    -   Finally, sum the results and divide by the number of interacting amenities. Let's call this value "value_amenity."
+4.  Value_amenity offers insights into the interaction of a single amenity, providing information about its impact. The next step is to assess the impact on the selected region as a whole.
+    
+5.  To gauge the region's overall impact, calculate the value_amenity for all related amenities within the area related to the case study. Sum these values and then divide by the total number of amenities, yielding "aggregated_value_amenities."
+    
+6.  Both value_amenity and aggregated_value_amenities fluctuate within the range of -100 to 100. To gain a deeper understanding of the interaction's intensity, multiply these values by density: "density = (total items of all amenities / area)."
+    
 
-So, the formula will be D<sup>2</sup>/d x (value/standard\_value)
+This refined approach provides a holistic representation of amenities collision and its intensity, facilitating more insightful comparisons.
 
 
 ### **Quantified Interaction of Amenities**
