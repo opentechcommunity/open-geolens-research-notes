@@ -34,9 +34,9 @@ The results of such queries can be exported to files or visualized on maps.
 
 Once OSM data is acquired, it becomes amenable to thorough analysis, permitting the identification of discernible patterns and trends. For instance, users can create spatial representations illustrating the dispersion of healthcare facilities within a given geographical area. Additionally, calculations for the average distance to the nearest healthcare facility in each neighborhood can highlight areas that lack sufficient healthcare infrastructure and necessitate further investment.
 
-## Examples of Using OSM Data to Uncover Infrastructure Impacting Life Expectancy
+## Using OSM Data to Uncover Infrastructure Impacting Life Expectancy
 
-The following examples demonstrate how OSM data can be instrumental in uncovering infrastructure that influences life expectancy:
+The following demonstrate how OSM data can be instrumental in uncovering infrastructure that influences life expectancy:
 
 1.  **Proximity of healthcare facilities**: OSM data enables the identification of healthcare facilities' locations, including hospitals and clinics. This information supports the creation of maps showcasing their geographical distribution and the calculation of average distances to the nearest facility, aiding in pinpointing underserved regions requiring healthcare infrastructure investment.
     
