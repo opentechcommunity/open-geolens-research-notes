@@ -112,8 +112,8 @@ To encapsulate the collision and its resulting intensity, we need a comprehensiv
     
     -   E represents the effect of an amenity over the chosen amenity.
     -   S signifies the scale of the interaction, ranging from 0 to 100.
-    -   AVDs represents the average distance (proximity) of the selected item.
-    -   AVDi represents the average distance (proximity) of the interacting amenity.
+    -   AVDs represents the average distance (driven by density) of the selected item.
+    -   AVDi represents the average distance (driven by density) of the interacting amenity.
     -   Finally, sum the results and divide by the number of interacting amenities. Let's call this value "value_amenity."
 4.  Value_amenity offers insights into the interaction of a single amenity, providing information about its impact. The next step is to assess the impact on the selected region as a whole.
     
